@@ -246,7 +246,7 @@
 				DEVELOPMENT_TEAM = 5KE88HWMKJ;
 				INFOPLIST_FILE = TouchBarLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks /Applications/Xcode.app/Contents/Frameworks /Applications/Xcode.app/Contents/SharedFrameworks /Applications/Xcode.app/Contents/OtherFrameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zats.TouchBarLauncher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syscl.TouchBarLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -260,7 +260,7 @@
 				DEVELOPMENT_TEAM = 5KE88HWMKJ;
 				INFOPLIST_FILE = TouchBarLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks /Applications/Xcode.app/Contents/Frameworks /Applications/Xcode.app/Contents/SharedFrameworks /Applications/Xcode.app/Contents/OtherFrameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zats.TouchBarLauncher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.syscl.TouchBarLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -285,6 +285,7 @@
 				5C8DCFA01DC3D32700971FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -5,6 +5,8 @@
 //  Created by Sash Zats on 10/28/16.
 //  Copyright © 2016 Sash Zats. All rights reserved.
 //
+//  Modified by syscl to enhance the function of TouchBarLauncher
+//
 
 import Cocoa
 
@@ -32,6 +34,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let sel = NSSelectorFromString("simulatorHostWindowController")
         let result = (cls as! NSObjectProtocol).perform(sel).takeUnretainedValue()
         controller = result as? NSWindowController
+        // syscl hide the toucharIcon
+        controller?.window?.collectionBehavior = [.canJoinAllSpaces, .transient]
         controller?.window?.delegate = self
     }
     

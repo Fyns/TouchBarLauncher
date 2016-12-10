@@ -34,9 +34,20 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         let sel = NSSelectorFromString("simulatorHostWindowController")
         let result = (cls as! NSObjectProtocol).perform(sel).takeUnretainedValue()
         controller = result as? NSWindowController
+        // syscl/lighting/Yating Zhou enhancement
         // syscl hide the toucharIcon
         controller?.window?.collectionBehavior = [.canJoinAllSpaces, .transient]
         controller?.window?.delegate = self
+        // syscl movable?
+        controller?.window?.isMovableByWindowBackground = true;
+        // syscl hide window button
+        controller?.window!.standardWindowButton(NSWindowButton.closeButton)?.isHidden = true
+        // syscl use background texture
+        controller?.window?.styleMask = NSWindowStyleMask.texturedBackground
+        // syscl title transparent
+        controller?.window?.titlebarAppearsTransparent = true
+        // syscl title visible
+        controller?.window?.titleVisibility = NSWindowTitleVisibility.hidden;
     }
     
     private func showTouchBar() {

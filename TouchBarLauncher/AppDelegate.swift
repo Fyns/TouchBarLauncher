@@ -39,15 +39,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         controller?.window?.collectionBehavior = [.canJoinAllSpaces, .transient]
         controller?.window?.delegate = self
         // syscl movable?
-        controller?.window?.isMovableByWindowBackground = true;
-        // syscl hide window button
-        controller?.window!.standardWindowButton(NSWindowButton.closeButton)?.isHidden = true
+        controller?.window?.isMovableByWindowBackground = false;
         // syscl use background texture
         controller?.window?.styleMask = NSWindowStyleMask.texturedBackground
-        // syscl title transparent
-        controller?.window?.titlebarAppearsTransparent = true
-        // syscl title visible
-        controller?.window?.titleVisibility = NSWindowTitleVisibility.hidden;
     }
     
     private func showTouchBar() {

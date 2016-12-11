@@ -1,8 +1,12 @@
-# Touch Bar Launcher
+# Touch Bar Launcher 
 
 ![](https://github.com/syscl/TouchBarLauncher/raw/master/TouchBarLauncher/Assets.xcassets/AppIcon.appiconset/Preview.png)
 
-The app is not signed, to launch it: Right Click ▶ Open.
+# Usage
+
+- Download release version
+- For first time launch: ```Right Click``` ▶ ```Open```
+- For launch on startup: ```System Preferences``` ▶ ```Users & Groups``` ▶ ```Login Items``` ▶ ```+``` ▶ ``` TouchBarLauncher```
 
 # Change Log
 2016-12-10

@@ -4,7 +4,7 @@
 
 # Usage
 
-- Download release version
+- [Download](https://github.com/syscl/TouchBarLauncher/files/644604/1.3_TouchBarLauncher.zip)
 - For first time launch: ```Right Click``` ▶ ```Open```
 - For launch on startup: ```System Preferences``` ▶ ```Users & Groups``` ▶ ```Login Items``` ▶ ```+``` ▶ ``` TouchBarLauncher```
 
